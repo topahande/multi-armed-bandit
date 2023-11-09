@@ -19,5 +19,5 @@ Figures below were obtained by averaging the results from 100 simulations (using
 </p>
 
 <p align="center">
-<img src="figure_3.png" width="904">
+<img src="figure_3.png" width="804">
 </p>
