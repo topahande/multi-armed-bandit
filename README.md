@@ -14,8 +14,8 @@ In real life, we don't know these conversion rates in advance, but we would like
 
 Figures below were obtained by averaging the results from 100 simulations (using the script bayesian_ab_testing.R). As we can see from Figure 1, epsilon greedy algorithm with larger epsilon converged more quickly than the one with smaller epsilon. However, its final conversion rate is smaller. This is expected as it had more chance to explore all options including the suboptimal ones, hence the final conversion rate is weighed down by the effects of the suboptimal option selected throughout the learning algorithm. On the other hand, as the epsilon-greedy algorithm with the smaller epsilon had smaller chance to explore the suboptimal option, it converged to a higher conversion rate although it took longer to converge. Overall, we see that Thompson sampling converged to the highest conversion rate and the most quickly. This is due to the Bayesian approach, which enabled the algorithm to quickly learn and consistently favor the best option (see Figure 2) as soon as the prior distribution of the best option's conversion rate has gotten confident enough (see Figure 3).
 <p align="center">
-<img src="figure_1.png" width="450" height="350">
-<img src="figure_2.png" width="450" height="350">
+<img src="figure_1.png" width="400" height="350">
+<img src="figure_2.png" width="400" height="350">
 </p>
 
 <p align="center">
